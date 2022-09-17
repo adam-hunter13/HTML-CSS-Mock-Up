@@ -1,14 +1,8 @@
-*{
-    margin: 0;
-    padding: 10px, 10px, 10px, 10px;
-    /* box-sizing: border-box; */
-    font-family: 'Montserrat', sans-serif;
-}
-
 .container{
     width: 100%;
     min-height: 100vh;
-    padding:10px
+    padding:10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -23,51 +17,45 @@ h2 {
 h2:before {
     content: "";
     display: block;
-    width: 450px;
+    width: 250px;
     height: 2px;
     background: #c4c4c4;
-    left: 20px;
+    left: 1px;
     top: 50%;
     position: absolute;
+    margin-left: 5%;
   }
 
 h2:after {
     content: "";
     display: block;
-    width: 450px;
+    width: 250px;
     height: 2px;
     background: #c4c4c4;
-    right: 20px;
+    right: 1px;
     top: 50%;
     position: absolute;
+    margin-right: 5%;
   }
 
 /* Image */
-.picture-frame {
-    display: flex;
-    justify-content: center;
-}
-
 img{
-    max-width: 100vw;
-    max-height: 100vh;
-    padding-left: 10px;
-    padding-right: 10px
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
 }
 
 /* Discount discription */
-.information {
-    display: flex;
-    justify-content: center;
-    padding: 25%
-}
-
 .textbox {
-    border-style: solid;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
 }
 
 p {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 /* Share zone */
@@ -89,9 +77,10 @@ input[type="radio"] {
 }
 
 .share {
-    /* display: flex;
-    justify-content: center; */
-    padding: 25px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -105,7 +94,7 @@ input[type="radio"] {
 }
 
 #form-id {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #email-text, #text-text, #recipent-text, #spelling-text, #address-text{
@@ -146,8 +135,9 @@ input[type="radio"] {
     border-color:gray;
     border-width: 1px;
     width: auto;
-    height: auto;
-    padding: 15px;
+    height: 45px;
+    padding: 10px;
+
     
 }
 
@@ -157,7 +147,9 @@ input[type="radio"] {
     border: none;
     font-size: xx-small;
     width: 60px;
-    height: 20px
+    height: 30px;
+    /* margin-top: -25px;
+    margin-left: 300px */
 }
 
 #copy-btn:hover {

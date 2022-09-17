@@ -12,62 +12,60 @@
         <!--Heading-->
         <h2>SHARE THE LOVE</h2>
         <!--Picture-->
-        <div class = "picture-frame">
-            <img src = "photos/sharethelove_meta.jpg" class = "photo"> 
-        </div> <br>
-        <div class = "information">
+        <div class = "picture-discription">
+            <img src = "photos/sharethelove_meta.jpg" class = "photo"> <br><br>
             <!--Paragraph-->
             <div class="textbox">
                 <p>Share the love. Refer your friends! We've made it simple and fun. Personalize a message about your experience with Modere, share your code, and receive a $10 credit to spend at Modere when your friends make their first purchase. Those who shop with your code will also receive a $10 credit towards their favorite everyday essentials. Now go on, start sharing.</p>
             </div>
-        </div>
-        <div class = "share">
-                <div class = "radio-btns">
-                    <h3 class="share-title">Invite by Email or Text</h3>
-                    <form id="form-id">
-                        <input type="radio" id="email" name="contact" value="email">
-                        <label for="email" id="email-text">EMAIL</label>
-                        <input type="radio" id="text" name="contact" value="text">
-                        <label for="text" id="text-text">TEXT</label><br><br>
-                        <label for="recipent" id="recipent-text">THE RECIPIENT OF THE EMAIL OR TEXT</label><br>
-                        <input type="text" id="recipent" name="recipent"><br><br>
-                        <label for="spelling" id="spelling-text">HOW YOU WANT YOUR NAME TO APPEAR IN THE EMAIL OR TEXT</label><br>
-                        <input type="text" id="spelling" name="spelling"><br><br>
-                        <label for="address" id="address-text">EMAIL</label><br>
-                        <input type="text" id="address" name="address"><br><br><br>
-                        <input type="submit" value="Send Invite" class="submit-btn" id="sbt">
-                    </form>
+        
+            <div class = "share">
+                    <div class = "radio-btns">
+                        <h3 class="share-title">Invite by Email or Text</h3>
+                        <form id="form-id">
+                            <input type="radio" id="email" name="contact" value="email">
+                            <label for="email" id="email-text">EMAIL</label>
+                            <input type="radio" id="text" name="contact" value="text">
+                            <label for="text" id="text-text">TEXT</label><br><br>
+                            <label for="recipent" id="recipent-text">THE RECIPIENT OF THE EMAIL OR TEXT</label><br>
+                            <input type="text" id="recipent" name="recipent"><br><br>
+                            <label for="spelling" id="spelling-text">HOW YOU WANT YOUR NAME TO APPEAR IN THE EMAIL OR TEXT</label><br>
+                            <input type="text" id="spelling" name="spelling"><br><br>
+                            <label for="address" id="address-text">EMAIL</label><br>
+                            <input type="text" id="address" name="address"><br><br><br>
+                            <input type="submit" value="Send Invite" class="submit-btn" id="sbt">
+                        </form>
+                    </div>
+                <div class = social-media>
+                    <div class = "links">
+                        <h3 class = "link-title">Copy Link</h3>
+                        <div class = "copy-box">
+                            <p class = "link" id="copy">
+                                https://www.modere.com/Home/welcome/?referralCode=9b1h0w
+                                <button type="button" onclick="copyEvent('copy')" id="copy-btn">Copy</button>
+                            </p>
+                        </div>
+                        <p>Copy link and share however you like</p>
+                    </div>
+                    <div class="invite">
+                        <h3 class="invite-title">Invite by Social Media</h3>
+                    </div>
+                    <div class="platforms">
+                        <div class="platform-icon"><p class="platform-text"></p><a href="https://www.facebook.com/" target="_blank">
+                            <img src="./photos/facebook.png"></a>          Facebook</p>
+                        </div>
+                        <div class="platform-icon"><p class="platform-text"></p><a href="https://twitter.com/" target="_blank">
+                            <img src="./photos/twitter.png"></a>          Twitter</p>
+                        </div>
+                        <div class="platform-icon"><p class="platform-text"></p><a href="https://www.pinterest.com/" target="_blank">
+                            <img src="./photos/pinterest.png"></a>          Pinterest</p>
+                        </div>
+                        <div class="platform-icon"><p class="platform-text"><a href="https://drive.google.com" target="_blank"><img src="./photos/google-plus.png"></a>          Google Plus</p>   
+                        </div>
+                    </div> 
                 </div>
-            <div class = social-media>
-                <div class = "links">
-                    <h3 class = "link-title">Copy Link</h3>
-                    <div class = "copy-box">
-                        <p class = "link" id="copy">
-                            https://www.modere.com/Home/welcome/?referralCode=9b1h0w
-                            <button type="button" onclick="copyEvent('copy')" id="copy-btn">Copy</button>
-                        </p>
-                    </div>
-                    <p>Copy link and share however you like</p>
-                </div>
-                <div class="invite">
-                    <h3 class="invite-title">Invite by Social Media</h3>
-                </div>
-                <div class="platforms">
-                    <div class="platform-icon"><p class="platform-text"></p><a href="https://www.facebook.com/" target="_blank">
-                        <img src="./photos/facebook.png"></a>          Facebook</p>
-                    </div>
-                    <div class="platform-icon"><p class="platform-text"></p><a href="https://twitter.com/" target="_blank">
-                        <img src="./photos/twitter.png"></a>          Twitter</p>
-                    </div>
-                    <div class="platform-icon"><p class="platform-text"></p><a href="https://www.pinterest.com/" target="_blank">
-                        <img src="./photos/pinterest.png"></a>          Pinterest</p>
-                    </div>
-                    <div class="platform-icon"><p class="platform-text"><a href="https://drive.google.com" target="_blank"><img src="./photos/google-plus.png"></a>          Google Plus</p>   
-                    </div>
-                </div> 
             </div>
         </div>
-
     </div> 
     <script src="./index.js"></script>
 </body>
