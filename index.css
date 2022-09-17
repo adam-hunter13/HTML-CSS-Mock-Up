@@ -16,8 +16,31 @@ h2 {
     font-weight: 100;
     text-align: center;
     padding: 25px;
-    font-size: small;
+    font-size: 20px;
+    position: relative;
 }
+
+h2:before {
+    content: "";
+    display: block;
+    width: 450px;
+    height: 2px;
+    background: #c4c4c4;
+    left: 20px;
+    top: 50%;
+    position: absolute;
+  }
+
+h2:after {
+    content: "";
+    display: block;
+    width: 450px;
+    height: 2px;
+    background: #c4c4c4;
+    right: 20px;
+    top: 50%;
+    position: absolute;
+  }
 
 /* Image */
 .picture-frame {
@@ -92,7 +115,7 @@ input[type="radio"] {
 
 #recipent, #spelling, #address {
     width: 65%;
-    height:fit-content;
+    height:20px;
 }
 
 .submit-btn {
