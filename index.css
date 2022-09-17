@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    padding: 25px
+}
+
+.information {
+    border: 15px;
+    border-color: red;
+    height: auto;
+    color: black;
+}
+
+.radio-btns {
+    padding: 30px;
+    color: black
+}
+
+input[type="radio"] {
+   accent-color: black;
+}
+
+.email-text p {
+    color: black;
+    font-size: 12px;
+}
