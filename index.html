@@ -12,20 +12,32 @@
         <!--Heading-->
         <h2>SHARE THE LOVE</h2>
         <!--Picture-->
-        <img src="photos/sharethelove_meta.jpg" class ="photo"> 
+        <div class="picture-frame">
+            <img src="photos/sharethelove_meta.jpg" class ="photo"> 
+        </div> <br>
         <div class = information>
             <!--Paragraph-->
-            <p>Share the love. Refer your friends! We've made it simple and fun. Personalize a message about your experience with Modere, share your code, and receive a $10 credit to spend at Modere when your friends make their first purchase. Those who shop with your code will also receive a $10 credit towards their favorite everyday essentials. Now go on, start sharing.</p> 
+            <div class="textbox">
+                <p>Share the love. Refer your friends! We've made it simple and fun. Personalize a message about your experience with Modere, share your code, and receive a $10 credit to spend at Modere when your friends make their first purchase. Those who shop with your code will also receive a $10 credit towards their favorite everyday essentials. Now go on, start sharing.</p>
+            </div>
         </div>
         <div class = share>
             <div class = email-text>
-                <h3>Invite by Email or Text</h3>
+                <h3 class="share-title">Invite by Email or Text</h3>
                 <div class = radio-btns>
-                    <input type="radio" id="email" name="contact" value="email">
-                    <label for="email">EMAIL</label>
-                    <input type="radio" id="text" name="contact" value="text">
-                    <label for="text">TEXT</label><br>
-                    <p>THE RECIPIENT OF THE EMAIL OR TEXT</p>
+                    <form id="form-id">
+                        <input type="radio" id="email" name="contact" value="email">
+                        <label for="email" id="email-text">EMAIL</label>
+                        <input type="radio" id="text" name="contact" value="text">
+                        <label for="text" id="text-text">TEXT</label><br><br>
+                        <label for="recipent" id="recipent-text">THE RECIPIENT OF THE EMAIL OR TEXT</label><br>
+                        <input type="text" id="recipent" name="recipent"><br><br>
+                        <label for="spelling" id="spelling-text">HOW YOU WANT YOUR NAME TO APPEAR IN THE EMAIL OR TEXT</label><br>
+                        <input type="text" id="spelling" name="spelling"><br><br>
+                        <label for="address" id="address-text">EMAIL</label><br>
+                        <input type="text" id="address" name="address"><br><br><br>
+                        <input type="submit" value="Send Invite" class="submit-btn">
+                    </form>
                 </div>
             </div>
             <div class = social-media>

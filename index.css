@@ -12,17 +12,42 @@
 
 h2 {
     color: black;
+    font-weight: 100;
     text-align: center;
-    padding: 25px
+    padding: 25px;
+    font-size: small;
 }
 
+/* Image */
+.picture-frame {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px,10px,10px,10px; */
+
+}
+
+img{
+    max-width: 100vh;
+    max-height: 100vh;
+    /* padding: 10px,10px,10px,10px; */
+}
+
+/* Discount discription */
 .information {
-    border: 15px;
-    border-color: red;
-    height: auto;
-    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 25%
 }
 
+.textbox {
+    border-style: solid;
+}
+
+p {
+    font-size: xx-small;
+}
+
+/* Share zone */
 .radio-btns {
     padding: 30px;
     color: black
@@ -35,4 +60,60 @@ input[type="radio"] {
 .email-text p {
     color: black;
     font-size: 12px;
+}
+
+.information {
+    padding: 25px;
+}
+
+.share {
+    padding: 25px;
+}
+
+
+/* Form CSS */
+.share-title {
+    font-weight: 100;
+}
+
+#email-text {
+    font-size: xx-small;
+}
+
+#text-text {
+    font-size: xx-small;
+}
+
+
+#recipent {
+    width: 25%;
+    height:fit-content
+}
+
+#recipent-text {
+    font-size: xx-small;
+}
+
+#spelling {
+    width: 25%;
+}
+
+#spelling-text {
+    font-size: xx-small;
+}
+
+#address {
+    width: 25%;
+}
+
+#address-text {
+    font-size: xx-small;
+}
+
+.submit-btn {
+    color: white;
+    background-color: #b20714;
+    font-size: xx-small;
+    width: 60px;
+    height: 25px
 }
