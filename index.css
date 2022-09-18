@@ -70,6 +70,7 @@ input[type="radio"] {
 .email-text p {
     color: black;
     font-size: 12px;
+
 }
 
 .information {
@@ -90,7 +91,7 @@ input[type="radio"] {
 /* Form CSS */
 .share-title {
     font-weight: 50;
-    font-size: 15px;  
+    font-size: 20px;  
 }
 
 #form-id {
@@ -103,7 +104,7 @@ input[type="radio"] {
 
 
 #recipent, #spelling, #address {
-    width: 65%;
+    width: 80%;
     height:20px;
 }
 
@@ -124,7 +125,7 @@ input[type="radio"] {
 /* Link Section */
 .link-title {
     font-weight: 50;
-    font-size: 15px;
+    font-size: 20px;
     padding-bottom: 20px
     
 }
@@ -166,34 +167,55 @@ input[type="radio"] {
 .links p {
     margin-top: 10px;
     color: black;
-    font-size: 8px;
+    font-size: 10px;
 }
 
+/* Social Media icons */
 .invite-title {
     font-weight: 50;
-    font-size: 15px;
-    padding-top: 15px;
+    font-size: 20px;
 }
 
 .platforms {
-    padding-top: 20px;
+    padding-top: -20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: -10px;
 }
 
 .platform-icon img{
-    width: 25px;
-    color:#b20714
+    width: 20px;
+    color:#b20714;
 }
 
 .platform-icon{
-    font-size: x-small;
+    font-size: small;
     color: black;
 }
 
 .platform-text {
     font-size: x-small;
-
 }
 
+
+/* Screen size changes */
+@media screen and (min-width: 900px){
+    #copy-btn {
+        margin-left: 100px;
+        margin-top: -10px
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #copy-btn {
+        margin-left: 150px;
+        margin-top: -10px
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #copy-btn {
+        margin-left: 200px;
+        margin-top: -10px
+    }
+}
