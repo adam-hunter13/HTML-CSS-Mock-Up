@@ -182,10 +182,15 @@ input[type=radio] {
 }
 
 .platforms {
+    margin-left: 12px;
+}
+
+.platform-container {
     padding-top: -20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: -10px;
+    margin-right: 100px
 }
 
 .platform-icon img{
@@ -212,11 +217,97 @@ input[type=radio] {
 
 
 /* Screen size changes */
+@media screen and (min-width: 700px){
+    #copy-btn {
+        margin-left: 200px;
+        margin-top: -10px
+    }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 200px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 200px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (min-width: 800px){
+    #copy-btn {
+        margin-left: 200px;
+        margin-top: -10px
+    }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 225px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 225px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
+}
+
 @media screen and (min-width: 900px){
     #copy-btn {
         margin-left: 100px;
         margin-top: -10px
     }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 250px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 250px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
 }
 
 @media screen and (min-width: 1000px){
@@ -224,6 +315,30 @@ input[type=radio] {
         margin-left: 150px;
         margin-top: -10px
     }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 300px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 300px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
 }
 
 @media screen and (min-width: 1200px){
@@ -231,4 +346,121 @@ input[type=radio] {
         margin-left: 200px;
         margin-top: -10px
     }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 350px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 350px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (min-width: 1400px){
+    #copy-btn {
+        margin-left: 220px;
+        margin-top: -10px
+    }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 450px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 450px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (min-width: 1600px){
+    #copy-btn {
+        margin-left: 250px;
+        margin-top: -10px
+    }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 500px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 500px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (min-width: 2000px){
+    #copy-btn {
+        margin-left: 350px;
+        margin-top: -10px
+    }
+
+    h2:before {
+        content: "";
+        display: block;
+        width: 650px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+      }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 650px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+      }
 }
