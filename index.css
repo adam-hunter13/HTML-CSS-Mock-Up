@@ -209,13 +209,6 @@ input[type=radio] {
     font-size: x-small;
 }
 
-.fa-cog {
-    background-color:#b20714
-}
-
-
-
-
 /* Screen size changes */
 @media screen and (min-width: 700px){
     #copy-btn {
