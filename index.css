@@ -132,7 +132,6 @@ input[type=radio] {
     font-weight: 50;
     font-size: 20px;
     padding-bottom: 20px
-    
 }
 
 .copy-box {
@@ -210,6 +209,131 @@ input[type=radio] {
 }
 
 /* Screen size changes */
+@media screen and (max-width: 480px) {
+    h2:before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        background: #c4c4c4;
+        left: 1px;
+        top: 50%;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    h2:after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        background: #c4c4c4;
+        right: 1px;
+        top: 50%;
+        position: absolute;
+        margin-right: 5%;
+    }
+
+    .share-title {
+        font-weight: 50;
+        font-size: 12px;  
+    }
+
+    #email-text, #text-text, #recipent-text, #spelling-text, #address-text{
+        font-size: 6px;
+    }
+    
+    
+    #recipent, #spelling, #address {
+        width: 100%;
+        height: 12px;
+    }
+
+    #form-id {
+        padding-top: 10px;
+        font-size: 8px
+    }
+
+    .submit-btn {
+        color: white;
+        background-color: #b20714;
+        border: none;
+        font-size: xx-small;
+        width: 60px;
+        height: 25px
+    }
+    
+    .link-title {
+        font-weight: 50;
+        font-size: 12px;
+        padding-bottom: 20px
+    }
+
+    .copy-box {
+        background-color:#ebebeb;
+        border-style: solid;
+        border-color:gray;
+        border-width: 1px;
+        width: 90%;
+        height: 30px;
+        padding: 10px;
+    }
+    
+    #copy {
+        font-size: 8px;
+    }
+    
+    #copy-btn {
+        color: white;
+        background-color: #b20714;
+        border: none;
+        font-size: x-small;
+        width: 60px;
+        height: 25px;
+        margin-top: -10px
+    }
+
+    .links p {
+        margin-top: 10px;
+        color: black;
+        font-size: 6px;
+    }
+
+    .invite-title {
+        font-weight: 50;
+        font-size: 12px;
+    }
+    
+    .platforms {
+        margin-left: 15px;
+    }
+    
+    .platform-container {
+        padding-top: -20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: -10px;
+        margin-right: -10px
+    }
+    
+    .platform-icon img{
+        width: 10px;
+        color:#b20714;
+        vertical-align:middle;
+        margin-top: 0
+    }
+    
+    .platform-icon{
+        font-size: x-small;
+        color: black;
+    }
+    
+    .platform-text {
+        font-size: xx-small;
+    }
+
+
+}
 @media screen and (min-width: 700px){
     #copy-btn {
         margin-left: 200px;
@@ -226,7 +350,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -238,7 +362,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 800px){
@@ -257,7 +381,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -269,7 +393,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 900px){
@@ -288,7 +412,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -300,7 +424,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 1000px){
@@ -319,7 +443,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -331,7 +455,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -350,7 +474,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -362,7 +486,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 1400px){
@@ -381,7 +505,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -393,7 +517,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 1600px){
@@ -412,7 +536,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -424,7 +548,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
 
 @media screen and (min-width: 2000px){
@@ -443,7 +567,7 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-left: 5%;
-      }
+    }
     
     h2:after {
         content: "";
@@ -455,5 +579,5 @@ input[type=radio] {
         top: 50%;
         position: absolute;
         margin-right: 5%;
-      }
+    }
 }
