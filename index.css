@@ -122,6 +122,11 @@ input[type="radio"] {
     cursor:pointer;
 }
 
+input[type=radio] {
+    vertical-align:middle;
+    margin-top: 0
+}
+
 /* Link Section */
 .link-title {
     font-weight: 50;
@@ -186,6 +191,8 @@ input[type="radio"] {
 .platform-icon img{
     width: 20px;
     color:#b20714;
+    vertical-align:middle;
+    margin-top: 0
 }
 
 .platform-icon{
@@ -196,6 +203,12 @@ input[type="radio"] {
 .platform-text {
     font-size: x-small;
 }
+
+.fa-cog {
+    background-color:#b20714
+}
+
+
 
 
 /* Screen size changes */
