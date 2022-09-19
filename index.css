@@ -206,7 +206,7 @@ input[type=radio] {
 }
 
 .platform-text {
-    font-size: x-small;
+    font-size: small;
 }
 
 /* Screen size changes */
