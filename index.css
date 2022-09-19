@@ -113,9 +113,9 @@ input[type="radio"] {
     background-color: #b20714;
     border: none;
 
-    font-size: xx-small;
-    width: 60px;
-    height: 25px
+    font-size: x-small;
+    width: 70px;
+    height: 35px
 }
 
 .submit-btn:hover {
@@ -153,9 +153,9 @@ input[type=radio] {
     color: white;
     background-color: #b20714;
     border: none;
-    font-size: xx-small;
+    font-size: small;
     width: 60px;
-    height: 30px;
+    height: 35px;
 }
 
 #copy-btn:hover {
